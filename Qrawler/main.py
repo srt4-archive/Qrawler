@@ -1,7 +1,7 @@
 from engine import Engine
 
 def main():
-	filename = 'main'
+	filename = 'userList.txt'
 	e = Engine(filename)
 	e.start()
 
