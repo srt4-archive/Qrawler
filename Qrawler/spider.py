@@ -46,7 +46,7 @@ class Spider:
 
     # param is the parameter that's used to compose the url
     def parseUrl(self, param):
-        return "http://www.quora.com/" + param + "/followers"
+        return "http://www.quora.com" + param + "/followers"
 
     # parse content with given xpath
     def parseContent(self, content, xpath):
