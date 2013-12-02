@@ -12,7 +12,7 @@ class Scheduler:
 	# have been processed
 	userDict = {}
 
-	#tempList the a list that contain most recent names that
+	#tempList is the list that contain most recent names that
 	# are crawled by spider
 	tempList = ()
 
