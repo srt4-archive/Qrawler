@@ -33,13 +33,12 @@ class Scheduler:
 		if username in self.userDict:
 			return True
 
-		# if 
 		self.userDict[username] = '1'
 		self.tempList.append(username)
 		self.tempListCount += 1
 		if self.tempListCount > self.storeUnit:
 			self.storeData()
-		return False 
+		return False
 
 	def startCrawl(self):
 		spider = Spider(self.userList)
