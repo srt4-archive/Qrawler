@@ -1,6 +1,6 @@
 Qrawler
 =======
 
-A web crawler that fetches username of users on Quora.
+A web crawler that fetches username of users on Quora(http://www.quora.com/).
 
-This project is for educational purpose only, and hence code should be well commented and easily configurable.
+This project is for educational purpose only, any inproper use of this program may lead to irreversible result.
