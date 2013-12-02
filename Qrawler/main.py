@@ -1,7 +1,7 @@
 from engine import Engine
 
 def main():
-	filename = 'userList.txt'
+	filename = 'seed.txt'
 	e = Engine(filename)
 	e.start()
 
