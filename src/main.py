@@ -5,5 +5,4 @@ def main():
 	e = Engine(filename)
 	e.start()
 
-if __name__ == '__main__':
-	main()
+main()

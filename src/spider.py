@@ -41,6 +41,7 @@ class Spider:
                 # if not, process this user
                 if not hasProcessed(name):
                     # push name into stack
+                    print name
                     self.stack.append(name)
 
 

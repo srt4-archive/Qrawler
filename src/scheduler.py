@@ -14,7 +14,7 @@ class Scheduler:
 
 	#tempList is the list that contain most recent names that
 	# are crawled by spider
-	tempList = ()
+	tempList = []
 
 	# tempListCount represent the number of users
 	# that have been crawled
